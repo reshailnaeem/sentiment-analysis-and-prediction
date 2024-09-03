@@ -1,6 +1,6 @@
 # Sentiment Analysis and Prediction: A Hybrid Approach
 
-This is a sentiment analysis and prediction model that uses a hybrid approach with feature extraction.The model combines deep learning and classical machine learning: a deep learning model extracts features from movie reviews, and an SVM classifier model uses these features to analyze the sentiment (positive or negative) in reviews. The dataset used was the IMDb Dataset of 50K Movie Reviews.
+This is a sentiment analysis and prediction model that uses _cascading_; a technique where multiple models are trained in a sequence and the output of one model is used as the input to the next model. The model combines deep learning and classical machine learning: a deep learning model extracts features from movie reviews, and an SVM classifier model uses these features to analyze the sentiment (positive or negative) in reviews. The dataset used was the IMDb Dataset of 50K Movie Reviews.
 
 https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews
 
@@ -12,9 +12,9 @@ https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-review
 
 ## Features
 
-I was working on a project where I needed to create a pure hybrid model using feature extraction, where features extracted from a deep learning model are used in a classical machine learning model. But because I couldn't find solid examples and a concrete solution, I decided to give it a try and develop one myself after studying the concept in depth. This model serves as an example, rather an experiment, in cases where combining deep learning with classical machine learning models together in sequence might improve overall model performance. Here’s the basic framework:
+I was working on a project where I needed to create a pure hybrid model using cascading, where features extracted from a deep learning model are used in a classical machine learning model. But because I couldn't find solid examples and a concrete solution, I decided to give it a try and develop one myself after studying the concept in depth. This model serves as an example, rather an experiment, in cases where combining deep learning with classical machine learning models together in sequence might improve overall model performance. Here’s the basic framework:
 
-- Applied feature extraction as the core conecpt for the project
+- Applied cascading (using feature extraction) as the core concept for the project
 - Performed basic preprocessing on the text data to prepare for machine learning
 - Developed a complex deep learning model with scaled self-attention layer to get the best results
 - Adjusted parameters like learning rate, batch size, and number of epochs after thorough experimentation
