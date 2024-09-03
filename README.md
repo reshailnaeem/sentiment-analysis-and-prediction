@@ -1,4 +1,4 @@
-# Sentiment Analysis and Prediction: A Hybrid Approach
+# Sentiment Analysis and Prediction: A Cascading Framework
 
 This is a sentiment analysis and prediction model that uses _cascading_; a technique where multiple models are trained in a sequence and the output of one model is used as the input to the next model. The model combines deep learning and classical machine learning: a deep learning model extracts features from movie reviews, and an SVM classifier model uses these features to analyze the sentiment (positive or negative) in reviews. The dataset used was the IMDb Dataset of 50K Movie Reviews.
 
