@@ -38,4 +38,4 @@ https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-review
 
 ## License
 
-Sentiment Analysis and Prediction: A Hybrid Approach © 2024 by Reshail Naeem is licensed under Attribution-NonCommercial-ShareAlike 4.0 International 
+Sentiment Analysis and Prediction: A Cascading Framework © 2024 by Reshail Naeem is licensed under Attribution-NonCommercial-ShareAlike 4.0 International
